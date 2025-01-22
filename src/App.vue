@@ -4,7 +4,14 @@ import ProductsList from './products/components/ProductsList.vue'
 </script>
 
 <template>
-  <h1>Productos</h1>
-  <CreateProductForm />
-  <ProductsList />
+  <div class="container">
+    <CreateProductForm />
+    <ProductsList />
+  </div>
 </template>
+
+<style scoped>
+.container {
+  margin-top: 1rem;
+}
+</style>
